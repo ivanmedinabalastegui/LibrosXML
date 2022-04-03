@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<libreria>
+	<libro categoria="Cocina">
+		<titulo idio="en">Everyday Italian</titulo>
+		<autor>Giada De Laurentiis</autor>
+		<año>2005</año>
+		<paginas>200</paginas>
+		<precio>30.00</precio>
+	</libro>
+	<libro categoria="Infantil">
+		<titulo idio="en">Harry Potter</titulo>
+		<autor>J K. Rowling</autor>
+		<año>2005</año>
+		<paginas>120</paginas>
+		<precio>29.99</precio>
+	</libro>
+	<libro categoria="Web">
+		<titulo idio="en">XQuery Kick Start</titulo>
+		<autor>James McGovern</autor>
+		<autor>Per Bothner</autor>
+		<autor>Kurt Cagle</autor>
+		<autor>James Linn</autor>
+		<autor>Vaidyanathan Nagarajan</autor>
+		<año>2003</año>
+		<paginas>527</paginas>
+		<precio>49.99</precio>
+	</libro>
+	<libro categoria="Web">
+		<titulo idio="en">Learning XML</titulo>
+		<autor>Erik T. Ray</autor>
+		<año>2003</año>
+		<paginas>136</paginas>
+		<precio>39.95</precio>
+	</libro>
+	
+	<libro categoria="Fantasía">
+	  <titulo idio="es">Heima es hogar en islandés</titulo>
+		<autor>Laia Soler</autor>
+		<año>2003</año>
+		<paginas>140</paginas>
+		<precio>14.95</precio>
+	</libro>
+	
+	<libro categoria="">
+	  <titulo idio="es">A todos los chicos de los que me enamoré</titulo>
+		<autor>Jenny Han</autor>
+		<año>2003</año>
+		<paginas>220</paginas>
+		<precio>27.95</precio>
+	</libro>
+	
+	<libro categoria="Fantasía">
+	  <titulo idio="es">El chico de las estrellas</titulo>
+		<autor>Chris Pueyo</autor>
+		<año>2003</año>
+		<paginas>102</paginas>
+		<precio>17.95</precio>
+	</libro>
+	
+	<libro categoria="Literatura">
+	  <titulo idio="es">Cinder</titulo>
+		<autor>Marissa Meyer</autor>
+		<año>2003</año>
+		<paginas>212</paginas>
+		<precio>35.95</precio>
+	</libro>
+	
+	<libro categoria="Literatura">
+	  <titulo idio="es">Memorias de una salvaje</titulo>
+		<autor>Bebi Fernández</autor>
+		<año>2003</año>
+		<paginas>187</paginas>
+		<precio>31.95</precio>
+	</libro>
+	
+	<libro categoria="Fantasía">
+	  <titulo idio="es">El principito</titulo>
+		<autor>Antoine de Saint-Exupéry</autor>
+		<año>2003</año>
+		<paginas>111</paginas>
+		<precio>12.95</precio>
+	</libro>
+	
+	<libro categoria="Literatura">
+	  <titulo idio="es">El árbol de la ciencia</titulo>
+		<autor>Pío Baroja</autor>
+		<año>2003</año>
+		<paginas>142</paginas>
+		<precio>14.95</precio>
+	</libro>
+	
+	<libro categoria="Literatura">
+	  <titulo idio="es">Los girasoles ciegos</titulo>
+		<autor>Alberto Méndez</autor>
+		<año>2003</año>
+		<paginas>136</paginas>
+		<precio>35.95</precio>
+	</libro>
+	
+	<libro categoria="Literatura">
+	  <titulo idio="es">Historia de una escalera</titulo>
+		<autor>Erik T. Ray</autor>
+		<año>2003</año>
+		<paginas>198</paginas>
+		<precio>19.95</precio>
+	</libro>
+	
+	<libro categoria="Literatura">
+	  <titulo idio="es">El cuarto de atrás</titulo>
+		<autor>Erik T. Ray</autor>
+		<año>2003</año>
+		<paginas>120</paginas>
+		<precio>29.95</precio>
+	</libro>
+</libreria>

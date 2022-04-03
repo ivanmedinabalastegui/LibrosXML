@@ -1,0 +1,52 @@
+PARTE 1:
+a) Añade al documento XML, de tu pulso y tecla, los datos requeridos de diez nuevos libros.
+
+
+b) Realiza una consulta FLWOR que muestre todos los datos de todos los libros almacenados.
+for $x in doc("libros_ep2t5a.xml")/libreria/libro 
+return data($x/*)
+
+
+c) Realiza una consulta FLWOR que muestre el título de cada libro(en etiquetas).
+for $x in doc("libros_ep2t5a.xml")/libreria/libro 
+return $x/titulo
+
+
+d) Realiza una consulta FLWOR que muestre el título de aquellos libros almacenados con más de 500 páginas.
+for $x in doc("libros_ep2t5a.xml")/libreria/libro
+where $x/paginas>500
+return $x/titulo
+
+
+e) Realiza una consulta FLWOR que muestre título y autor de todos los libros de la biblioteca, en unatabla HTML. 
+for $x in doc("libros_ep2t5a.xml")/libreria/libro 
+return <table> <tr><td>{string($x/titulo)}</td><td>{data($x/autor)}</td></tr></table>
+
+
+f) Realiza una consulta FLWOR que muestre título y autor de todos los libros de la biblioteca quetengan más de 150 páginas, en una tabla HTML.
+for $x in doc("libros_ep2t5a.xml")/libreria/libro 
+where $x/paginas>150
+return <table> <tr><td>{string($x/titulo)}</td><td>{data($x/autor)}</td></tr></table>
+
+
+g) Realiza la inserción de los datos de un nuevo libro, utilizando una sentencia XQuery.
+insert nodes <libro categoria="Drama"> <titulo idio="en">El Hobbit</titulo> 
+<autor>J.K. Rowling</autor> <año>2001</año> <paginas>329</paginas> 
+<precio>60.99</precio> </libro> as last into doc ("libros_ep2t5a.xml")/libreria
+
+
+h) Realiza una modificación de algún dato de un libro, utilizando una sentencia XQuery.
+replace node doc("libros_ep2t5a.xml")/libreria/libro[autor="Antoine de Saint-Exupéry"]/paginas with <paginas>117</paginas>
+
+
+i) Realiza el borrado de los datos de un libro, utilizando una sentencia XQuery.
+delete node doc("libros_ep2t5a.xml")/libreria/libro[titulo="El Principito"]
+
+
+PARTE 2:
+
+a) 
+for $x in doc("envio_ep2t5b.xml")/envio/poliza[1]/asegurado return <newaseg><nombre>{data($x/[@nombre])}</nombre> <apellido>{data($x/[@apellidos])}</apellido></newaseg>
+
+b) 
+for $x in doc("envio_ep2t5b.xml") return <totalaseg>{count($x//asegurado)}</totalaseg>

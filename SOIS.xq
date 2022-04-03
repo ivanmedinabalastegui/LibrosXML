@@ -1,0 +1,1 @@
+insert node <libro categoria="Tragedia"> <titulo idio="es">El amor</titulo> <autor>Chawn Wen</autor> <año>2017</año> <paginas>200</paginas> <precio>32.99</precio> </libro> as last into doc ("libros_ep2t5a.xml")
